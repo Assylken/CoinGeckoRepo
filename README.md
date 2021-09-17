@@ -1,4 +1,4 @@
-# CoinGecko API 
+# CoinGecko API Python
 
 ### Installation
 PyPI
@@ -43,8 +43,8 @@ XRP | Price:  1.08 $ | Market_Cap:  50072615531
 Run unit tests with:
 
 ```
-# after installing pytest using pip3
-pytest tests
+# after installing the project
+run test.py
 ```
 
 ## License
