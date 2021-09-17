@@ -21,7 +21,7 @@ cg = CoinGeckoAPI()
 
 ### Examples
 
-You need just input a number of **top** N cryptocurrencies which are sorted by market capitalization.
+You need just input a number of **_top_** N cryptocurrencies which are sorted by market capitalization.
 
 Usage examples:
 
