@@ -1,5 +1,7 @@
 # CoinGecko API Python
 
+Python3 wrapper around the [CoinGecko](https://www.coingecko.com/) API (V3)
+
 ### Installation
 PyPI
 ```bash
