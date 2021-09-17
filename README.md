@@ -21,19 +21,22 @@ cg = CoinGeckoAPI()
 
 ### Examples
 
-You need just input a number of #top# N cryptocurrencies which are sorted by market capitalization.
+You need just input a number of ###top N cryptocurrencies which are sorted by market capitalization.
 
 Usage examples:
 
+```python
+
 Enter a number to output top N cryptocurrencies: 6
 
-Bitcoin | Price:  47660 $ | Market_Cap:  896763348174
+Bitcoin | Price:  47660 $ | Market_Cap:  896763348174 
 Ethereum | Price:  3454.05 $ | Market_Cap:  405983703199
 Cardano | Price:  2.38 $ | Market_Cap:  76238147654
 Tether | Price:  1.0 $ | Market_Cap:  69515893173
 Binance Coin | Price:  413.69 $ | Market_Cap:  63913830108
 XRP | Price:  1.08 $ | Market_Cap:  50072615531
 
+```
 
 ```python
 # /simple/price endpoint with the required parameters
