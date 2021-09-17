@@ -1,8 +1,4 @@
-# CoinGecko API wrapper
-[![PyPi Version](https://img.shields.io/pypi/v/pycoingecko.svg)](https://pypi.python.org/pypi/pycoingecko/)
-![GitHub](https://img.shields.io/github/license/man-c/pycoingecko)
-
-Python3 wrapper around the [CoinGecko](https://www.coingecko.com/) API (V3)
+# CoinGecko API 
 
 ### Installation
 PyPI
@@ -24,16 +20,21 @@ cg = CoinGeckoAPI()
 ```
 
 ### Examples
-The required parameters for each endpoint are defined as required (mandatory) parameters for the corresponding functions.\
-**Any optional parameters** can be passed using same names, as defined in CoinGecko API doc (https://www.coingecko.com/api/docs/v3)
 
-For any parameter:
-- ***Lists** are supported as input for multiple-valued comma-separated parameters\
-  (e.g. see /simple/price usage examples).*
-- ***Booleans** are supported as input for boolean type parameters; they can be `str` ('true', 'false'') or `bool` (`True`, `False`)\
-  (e.g. see /simple/price usage examples).*
+You need just input a number of #top# N cryptocurrencies which are sorted by market capitalization.
 
 Usage examples:
+
+Enter a number to output top N cryptocurrencies: 6
+
+Bitcoin | Price:  47660 $ | Market_Cap:  896763348174
+Ethereum | Price:  3454.05 $ | Market_Cap:  405983703199
+Cardano | Price:  2.38 $ | Market_Cap:  76238147654
+Tether | Price:  1.0 $ | Market_Cap:  69515893173
+Binance Coin | Price:  413.69 $ | Market_Cap:  63913830108
+XRP | Price:  1.08 $ | Market_Cap:  50072615531
+
+
 ```python
 # /simple/price endpoint with the required parameters
 >>> cg.get_price(ids='bitcoin', vs_currencies='usd')
