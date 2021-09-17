@@ -1,1 +1,0 @@
-To install, you need to have python and a handy text editor, and then run this program yourself, following the instructions.
